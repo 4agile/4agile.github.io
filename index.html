@@ -1,260 +1,223 @@
 <!DOCTYPE html>
-<html lang="en-us">
-    <head>
-        <meta charset="UTF-8">
-        <title>4agile by 4agile</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-        
-        <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-        <link rel="stylesheet" href="assets/css/main.css" />
-        <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-        
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/jquery.scrolly.min.js"></script>
-        <script src="assets/js/skel.min.js"></script>
-        <script src="assets/js/util.js"></script>
-        <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-        <script src="assets/js/main.js"></script>
-    </head>
-    <body>
-       <header id="header" class="page-header ">
-          <div class="inner">
-              <br>
-              <br>
-              <br>
-              <h1 class="project-name">4agile</h1>
-              <h2 class="project-tagline">software factory</h2>
-              <h1>Seja <strong>Bem-vindo</strong></h1>
-              <ul class="actions">
-                  <li><a href="#fabrica" class="button scrolly">Saiba mais</a></li>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="icons/favicon.ico">
+
+    <title>4Agile</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="stylesheets/contato.css" rel="stylesheet">
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="stylesheets/carousel.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Software Factory 4agile</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse fixo">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Inicio</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#nossoProcesso">Nosso Processo</a></li>
+                <li><a href="#contatos">Contato</a></li>
               </ul>
-              <br>            
+            </div>
           </div>
-      </header>
+        </nav>
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
         
-           <nav id="nav">
-          <ul>
-              <li class="current"><a href="index.html">Home</a></li>
-          </ul>
-      </nav>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="images/sf13.png" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Construção de valor</h1>
+              <p>Criamos soluções que agregam valor a sua organização</p>
+              
+            </div>
+          </div>
+        </div>
+        <!--<div class="item">
+          <img class="second-slide" src="images/sf11.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1></h1>
+              <p></p>
+              
+            </div>
+          </div>
+        </div> -->
+        <div class="item">
+          <img class="second-slide" src="images/sf3.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Soluções para o seu negócio</h1>
+              <p>Criamos soluções tecnológicas específicas para seu négocio</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Web<span class="text-muted"></span></h2>
+          <p class="lead">Desenvolvimento de soluções web específica para as suas necessidades 
+              com usabilidade e responsividade para utilização em qualquer aparelho.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="icons/icon1.jpg" width="250" height="250" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Mobile<span class="text-muted"></span></h2>
+          <p class="lead">Desenvolvimento de aplicativos para smartphones e tables, integrada com suas redes sociais e designs elegantes para apresentação do seu empreendimento.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="icons/icon2.jpg" width="250" height="250" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Consultorias e Treinamentos<span class="text-muted"></span></h2>
+          <p class="lead">Realização de consultorias e treinamentos nas áreas de Engenharia de Software e tecnologias 
+          de desenvolvimento.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="icons/icon4.jpg" width="250" height="250" alt="Generic placeholder image">
+        </div>
+      </div>
+      <hr class="featurette-divider">
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/membros/douglas.jpg" alt="Generic placeholder image" width="100" height="100">
+          <h2>Douglas Mariz</h2>
+          <p>Formado em Análise e Desenvolvimento de Sistemas, estudante da especialização de Engenharia em qualidade de software.
+            Atualmente trabalha com desenvolvimento web na empresa Vox Tecnologia.
+            Trabalhou na empresa Magazine Luiza realizando suporte a sistemas.</p>
+        </div><!-- /.col-lg-4 -->
         
-        <section id="fabrica" class="main-content special">
-            
-            <article>
-                <h2>Missão</h2>
-                <p>A nossa missão é a agregação de valor aos nossos clientes 
-                    através de soluções tecnológicas eficazes e eficientes, 
-                    maximizando a qualidade.</p>
-                  <h2>Visão</h2>
-                  <p>Trabalhar na continua busca da excelência visando se tornar
-                      referência no mercado de TI.</p>
-            </article>
-        </section>
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/membros/fernando.jpg" alt="Generic placeholder image" width="100" height="100">
+          <h2>Fernando Ítallo</h2>
+          <p>Formado em Análise e Desenvolvimento de Sistemas, certificado Scrum Master, MPS.br, ITIL e COBIT.
+          Estudante da Especialização de Engenharia em Qualidade de software na Unipê</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/membros/ian.jpg" alt="Generic placeholder image" width="100" height="100">
+          <h2>Ian Lucas</h2>
+          <p>Formado em Sistemas de Informação. 
+            Estudante da Especialização em Engenharia e Qualidade de Software na UNIPÊ. 
+            Trabalha na Procuradoria Geral do Estado da Paraíba PGE-PB, com o desenvolvimento e suporte de soluções Web.</p>
+          
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/membros/wagner.jpg" alt="Generic placeholder image" width="100" height="100">
+          <h2>Wagner Abreu</h2>
+          <p>Formado em Análise e Desenvolvimento de Sistemas. Estudante da Especialização de Engenharia em Qualidade de software na Unipê. Desenvolvendo para web, mobile. Conehcimento em processos de desenvolvimento de software.</p>
+          <!--<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+      <div class="test">
+      <!-- <p class="pull-right"><a href="#"><img  src="icons/setatop.jpg" width="100" height="100"></a></p> -->
+      
 
-        <section id="cicloProcesso" class="main-content special">
-            <header class="cabecalho">
-                <h1>Ciclo de vida 4Process</h1>
-            </header>
-            <article>
-
-                <p>
-                    O processo é iterativo incremental focado na entrega de valor ao
-                    cliente de forma ágil, valor esse que será agregado desde as
-                    primeiras iterações, utilizando conceito do produto minimo viável
-                    (do inglês MVP). Isso se dará em iterações curtas, 
-                    realizadas em um intervalo de um semana até um mês.
-
-                </p>
-
-                <header class="cabecalho">
-                    <h2>Valores do processo</h2>
-                </header>
-                <article>
-                    <p>
-                        O processo é pautado em cima dos seguintes valores: 
-                    </p>
-                    <ul class="listaSemForma">
-                        <li>Simplicidade</li>
-                        <li>Feedback</li>
-                        <li>Melhoria continua</li>
-                        <li>Qualidade</li>
-                    </ul>
-                </article>
-
-                <header class="cabecalho">
-                    <h2>Fases</h2> 
-                </header>
-
-                <article>
-                    <img class="" src="images/4process/cv_4Process.jpg" 
-                         alt="Clico de vida do 4Process" >
-                    <p>O processo é dividido em três fases bem definidas: Iniciação, 
-                        Construçao e Transição. Porém esse é um processo iterativo,
-                        com isso, a sua construção será de forma progressiva, isso é,
-                        essas fases são abordadas a cada iteração.
-                    </p>
-
-                    <h3>Iniciação</h3>
-                    <p>
-                        A iniciação visa a análise de viabilidade, para projetos
-                        inovadores, e de mercado, planejamento do projeto, 
-                        levantamento de requisitos preliminar, desenvolvimento da 
-                        arquitetura e treinamento da equipe do projeto.
-                        O foco dessa fase é a preparação do projeto para a efetiva 
-                        construção de valor ao negocio. O entendimento dessa fase 
-                        poderá aumentar a cada iteração.
-                    </p>
-
-                    <h3>Construção</h3>
-                    <p>
-                        Essa é a fase da efetiva construção do produto ou servirço. 
-                        O foco é na documentação, codificação e testes de incrementos 
-                        que agregem valor ao cliente.
-                    </p>
-
-                    <h3>Transição</h3>
-                    <p>
-                        Essa é a fase onde o cliente poderá observar a entrega de 
-                        valor ao negocio, pois é nesse ponto que o produto ou serviço 
-                        será passado a sua organização. Aqui os incrementos gerados
-                        na construção serão postos em produção.
-                    </p>
-
-                </article>
-
-                <header class="cabecalho">
-                    <h2>Eventos</h2>
-                </header>
-
-                <article>
-                    <p>
-                        Eventos são reuniões que serão realizadas ao longo do projeto
-                        para atingir os valores do processo e controle do andamento 
-                        do projeto. O processo consiste dos seguintes eventos: 
-                    </p>
-                    <ul class="listaSemForma">
-                        <li>Planejamento da iteração</li>
-                        <li>Reuniões diárias</li>
-                        <li>Refinamento do backlog</li>
-                        <li>Retrospectiva da iteração</li>
-                        <li>Kaizen</li>
-                    </ul>
-                </article>
-
-                <header class="cabecalho">
-                    <h2>Papéis</h2>
-                </header>
-
-                <article>
-                    <p>
-                        Papéis são responsabilidades e atividades que serão 
-                        realizadas durante o processos. Esses perfis serão atribuídos
-                        a equipe do projeto. Alguns perfis terão funções pontuais 
-                        durante o processo e outras serão presença constante durante 
-                        o processo. O processo descreve os seguintes perfis: 
-                    </p>
-                    <ol class="listaSemForma">
-                        <li>Product Owner - Douglas</li>
-                        <li>Gerente de projetos - Fernando</li>
-                        <li>Analista de Configuração - Wagner e Douglas</li>
-                        <li>Analista de Requisitos - Douglas, Fernando, Ian e Wagner</li>
-                        <li>Arquiteto de Software - Wagner</li>
-                        <li>Engenheiro de Software/Desenvolvedor - Douglas, Fernando, Ian e Wagner</li>
-                        <li>Engenheiro de Testes - Douglas, Fernando, Ian e Wagner</li>
-                    </ol>
-
-                </article>
-
-                <header class="cabecalho">
-                    <h2>Artefatos</h2>
-                </header>
-
-                <article>
-                    <ul class="listaSemForma">
-                        <li>Diagrama de caso de uso</li>
-                        <li>Especificação de caso de uso</li>
-                        <li>Matriz de rastreabilidade</li>
-                        <li>Documento de Visão</li>
-                        <li>Canvas do produto</li>
-                        <li>Definição de Feito</li>
-                        <li>Plano de Release e Implantação</li>
-                        <li>Plano de Configuração e Integração Contínua</li>
-                        <li>Plano de testes</li>
-                        <li>Manual do usuário</li>
-                        <li>Projeto Arquitetural</li>
-                        <li>Código</li>
-                    </ul>
-                </article>
-            </article>
-        </section>
+        <!-- /END THE FEATURETTES -->
         
-        <section id="ferramentas" class="main-content special">
-            
-            <header class="cabecalho" >
-                <h1>Ferramentas Case</h1>
-            </header>
-            <article>
-                <h2>Modelagem BPMN e UML</h2>
-                <ul class="listaSemForma">
-                    <li>Bizagi Modeler</li>
-                    <li>Astah</li>
-                </ul>
-            </article>
-            <article>
-                <h2>Banco de Dados</h2>
-                <ul class="listaSemForma">
-                    <li>BR Modelo</li>
-                    <li>Postgre</li>
-                </ul>
-            </article>
-            <article>
-                <h2>IDEs</h2>
-                <ul class="listaSemForma">
-                    <li>Netbeans</li>
-                    <li>Eclipse</li>
-                </ul>
-            </article>
-            <article>
-                <h2>Controle de Versão</h2>
-                <ul class="listaSemForma">
-                    <li>Git/Github</li>
-                    
-                </ul>
-            </article>
-        </section>
-            
-
-        <section id="ref4Process" class="main-content">
-            <header class="cabecalho">
-                <h1>Referências do 4Process</h1>
-            </header>
-            <article>
-                <p>
-                    O processo se baseia no AUP (Agile Unified Process), Scrum, 
-                    eXtreme Programming (XP) ,no Rprocess e Lean.
-                    A divisão das fases do processo é baseada na do AUP e
-                    Rprocess. A fase de construção está alinhada com as práticas
-                    técnicas do XP e o gerenciamento do scrum seguindo o modelo 
-                    de melhoria do lean.
-                </p>
-            </article>
-
-        </section>
+              <!-- Three columns of text below the carousel -->
         
-        <!-- Footer -->
-        <section id="footer">
-				<ul class="icons">
-					<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-					<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-					<li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
-				</ul>
-				
-			</section>
+        <!-- FOOTER -->
+        <footer id="contatos">
+          
+            <div class="wrapper">
+                <a class="icon facebook" href="https://www.facebook.com/4agile.factory" target="_blink"><span class="zocial-facebook"></span></a>
+                <a class="icon linkedin" href="#"><span class="zocial-linkedin"></span></a>
+                <a class="icon email" href="mailto:4agile.unipe@gmail.com" target="_top"><span class="zocial-email"></span></a>
+            </div>
+            <div>
+
+          <p>&copy; 2015 4agile, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+          </div>
+        </footer>
+      </div>
+    </div><!-- /.container -->
 
 
-    </body>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="assets/js/holder.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
 </html>
-
